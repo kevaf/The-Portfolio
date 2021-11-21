@@ -12,3 +12,18 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active")
     });
 });
+
+// typed animation script
+var typed = new Typed(".typing",{
+    strings:["Programmer.", "Full Stack Developer.", "Software Engineer.", "Designer.", "Freelancer."],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});
+
+var typed = new Typed(".typing2",{
+    strings:["Programmer.", "Full Stack Developer.", "Software.", "Designer.", "Freelancer."],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});
