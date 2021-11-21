@@ -114,7 +114,7 @@
 section{
     padding: 100px 0;
 }
-.about, .services, .skills, .contact{
+.about, .services, .skills, .contact, footer{
     font-family: "Poppins", sans-serif;
 }
 .about .about-content, 
@@ -412,6 +412,20 @@ section .title::after{
     background: none;
 }
 
+/* Footer Section Styles */
+footer{
+    background: #111;
+    padding: 20px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
 
 
 
