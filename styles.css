@@ -210,7 +210,7 @@ section .title::after{
 }
 .services .title::after{
     background: #111;
-    content: "Some of My Best Work";
+    content: "Some of My Projects";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
