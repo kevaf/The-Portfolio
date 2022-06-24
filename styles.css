@@ -70,11 +70,16 @@
 /* home section */
 .home{
     display: flex;
-    background: url("images/wp4923071-joker-black-wallpapers.jpg") no-repeat center;
+    background: url(/images/WhatsApp_Image_2021-05-31_at_8.26.23_PM-removebg-preview.png) no-repeat left; 
+    background-color: black;
     height: 100vh;
     color: #fff;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
+}
+
+.home .home-content{
+    margin-left: 500px;
 }
 .home .max-width{
     margin: auto 0 auto 40px;
